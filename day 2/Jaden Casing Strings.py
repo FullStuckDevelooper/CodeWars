@@ -4,3 +4,6 @@ def to_jaden_case(string):
         x[i] = word.capitalize()
 
     return ' '.join(x)
+
+
+print(to_jaden_case("asuasi"))
