@@ -1,12 +1,11 @@
 def printer_error(s, error=0):
     eWord = "m"
 
-    for i, word in enumerate(s):
-        if s[i] > eWord:
+    for word in s:
+        if word > eWord:
             error += 1
 
-    x = str(error)+"/"+str(len(s))
-    return x
+    return str(error)+"/"+str(len(s))
 
 
 print(printer_error("seno"))
